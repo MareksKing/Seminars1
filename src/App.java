@@ -33,7 +33,7 @@ public class App {
         list.getList();
         System.out.println("-------------------------------------");
         System.out.println("3.elements ir: "+list.retrieve(3));
-        list.search(3);
+        System.out.println("Meklētais elements 3 ir : " + Arrays.toString(list.search(3)));
         System.out.println("Nakosais elements: "+Arrays.toString(list.nextElem(2)));
         list.sortList();
         System.out.print("Sakartots masivs: "); 
